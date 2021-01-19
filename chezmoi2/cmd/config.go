@@ -809,6 +809,8 @@ func (c *Config) newRootCmd() (*cobra.Command, error) {
 		c.newManagedCmd,
 		c.newMergeCmd,
 		c.newPurgeCmd,
+		c.newReadLineCmd,     // FIXME remove
+		c.newReadPasswordCmd, // FIXME remove
 		c.newRemoveCmd,
 		c.newSecretCmd,
 		c.newSourcePathCmd,
